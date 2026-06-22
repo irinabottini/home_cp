@@ -48,8 +48,8 @@ body{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:18px;
-  padding:14px clamp(18px,3vw,46px);
+  gap:12px;
+  padding:8px clamp(16px,3vw,38px);
   background:rgba(255,255,255,.78);
   border-bottom:1px solid rgba(223,231,242,.85);
   backdrop-filter:blur(18px);
@@ -58,33 +58,33 @@ body{
 .brand{
   display:flex;
   align-items:center;
-  gap:12px;
+  gap:9px;
   color:var(--ink);
   text-decoration:none;
 }
 .brand-logo{
-  width:48px;
-  height:48px;
+  width:36px;
+  height:36px;
   object-fit:contain;
   border-radius:50%;
-  box-shadow:0 8px 22px rgba(0,163,224,.16);
+  box-shadow:0 6px 16px rgba(0,163,224,.14);
 }
-.brand strong{display:block;font-size:15px;font-weight:900;letter-spacing:-.01em}
-.brand small{display:block;font-size:11px;color:var(--muted);font-weight:600;margin-top:2px}
+.brand strong{display:block;font-size:13px;font-weight:900;letter-spacing:-.01em}
+.brand small{display:block;font-size:10px;color:var(--muted);font-weight:600;margin-top:1px}
 
 .main-nav{
   display:flex;
   align-items:center;
   justify-content:flex-end;
-  gap:8px;
+  gap:6px;
   flex-wrap:wrap;
 }
 .main-nav a{
   color:#29415f;
   text-decoration:none;
-  font-size:12px;
+  font-size:11px;
   font-weight:800;
-  padding:10px 12px;
+  padding:7px 10px;
   border-radius:999px;
   transition:.18s ease;
 }
@@ -216,7 +216,7 @@ p{
   grid-template-columns:repeat(4,minmax(0,1fr));
   gap:16px;
 }
-.compact-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.compact-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
 .tool-card{
   min-height:180px;
   padding:20px;
